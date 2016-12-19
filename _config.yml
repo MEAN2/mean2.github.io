@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mean2.io
+title: MEAN2.io
 email: shalotelli@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Full stack JavaScript framework using MongoDN, Express, AngularJS 2 & NodeJS
+  Full stack JavaScript framework using MongoDB, Express, Angular 2 & NodeJS.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mean2.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  mean2
+twitter_username: mean2io
+github_username:  MEAN2
 
 # Build settings
 markdown: kramdown

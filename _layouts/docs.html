@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="docs">
+  <div class="sidebar">
+    <ul>
+      {% for link in page.links %}
+      <li>
+        <a href="#{{link.id}}">{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="content">
+    {{content}}
+  </div>
+</div>
