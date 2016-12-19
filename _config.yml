@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MEAN2.io
-email: shalotelli@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Full stack JavaScript framework using MongoDB, Express, Angular 2 & NodeJS.
 baseurl: "" # the subpath of your site, e.g. /blog
