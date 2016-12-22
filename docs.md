@@ -260,7 +260,11 @@ $ mean2 serve
 
 <h1 id="credits">Credits</h1>
 
-<p>** add content **</p>
+<p>Special mentions to go:</p>
+
+<ul>
+  <li><a href="https://twitter.com/hashtagserg" taget="_blank">Sergio Cruz</a></li>
+</ul>
 
 <h1 id="license">License</h1>
 
