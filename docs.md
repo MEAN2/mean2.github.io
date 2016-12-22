@@ -45,9 +45,64 @@ links: [
 
 <h1 id="prerequisits">Prerequisits</h1>
 
+<p>** add content **</p>
+
 <h1 id="installation">Installation</h1>
 
+<p>** add content **</p>
+
 <h1 id="folders">Folder Structure</h1>
+
+{% highlight shell %}
+# API assets
+api/
+  controllers/
+  models/
+  services/
+
+# server configuration
+config/
+  bootstrap.js
+  routes.js
+  server.js
+
+# end to end tests
+e2e/
+  app.e2e-spec.ts
+  app.po.ts
+  tsconfig.json
+
+# where most of your client side work will be
+src/
+
+  # public assets
+  assets/
+
+  # client configuration
+  environments/
+    environment.prod.ts
+    environment.ts
+
+  # main client side files
+  favicon.ico
+  index.html
+  main.ts
+  polyfills.ts
+  styles.sass
+  test.ts
+  tsconfig.json
+  typings.d.ts
+  .editorconfig
+  .gitignore
+  angular-cli.json
+  karma.conf.js
+  package.json
+  protractor.conf.js
+  tslint.json
+
+  # server entry point
+  server.js
+{% endhighlight %}
 
 <h1 id="controllers">API Controllers</h1>
 
@@ -157,6 +212,15 @@ $ mean2 generate pipe <path/to/pipe>
 
 # generates a service.
 $ mean2 generate service <path/to/service>
+
+# generates an API controller & model.
+$ mean2 generate api <api/name>
+
+# generates just the API controller.
+$ mean2 generate api controller <controller/name>
+
+# generates just the API model.
+$ mean2 generate api model <model/name>
 {% endhighlight %}
 
 <h2>Serve</h2>
