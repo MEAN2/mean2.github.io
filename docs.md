@@ -268,4 +268,4 @@ $ mean2 serve
 
 <h1 id="license">License</h1>
 
-<p>** add content **</p>
+<a href="http://opensource.org/licenses/MIT" target="_blank">Licensed under MIT. Documentation licensed under CC BY 3.0</a>
